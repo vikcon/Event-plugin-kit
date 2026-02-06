@@ -1,0 +1,38 @@
+/* Tabs UI */
+.tec-cat-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin: 0 0 18px;
+}
+.tec-cat-tabs .tec-tab{
+  display:inline-flex;
+  align-items:center;
+  padding:10px 14px;
+  border:1px solid rgba(0,0,0,.12);
+  border-radius:999px;
+  text-decoration:none;
+  line-height:1;
+}
+.tec-cat-tabs .tec-tab.is-active{
+  font-weight:600;
+  border-color: currentColor;
+}
+
+/* Card polish */
+.elementor-post__card{
+  border-radius:14px;
+  overflow:hidden;
+}
+
+/* Date-time bar (excerpt) once it’s moved before title */
+article.tribe_events .elementor-post__excerpt{
+  margin: 0 0 14px;
+}
+article.tribe_events .elementor-post__excerpt p{
+  display:inline-block;
+  background:#fff;
+  color:#000;
+  padding:10px 14px;
+  margin:0;
+}
